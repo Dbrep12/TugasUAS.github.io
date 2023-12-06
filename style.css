@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    bottom: 0;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    position: fixed;
+    align-items: end;
+    background-color: rgb(16, 6, 32);
+    color: inherit;
+    width: 100%;
+    padding: 15px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul a{
+    display: flex;
+    color: inherit;
+    text-decoration: none
+}
+
+header nav ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+header input{
+    display: flex;
+    margin-left: 20px;
+    border-radius: 3px;
+    height: 18px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .imgContent{
+    display: flex;
+    flex-direction: column;
+}
+
+main .imgContent img{
+    padding: 50px 0;
+    height: 600px;
+    justify-content: center;
+}
+
+main .imgContent h2{
+    font-family: serif;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: inherit;
+}
+
+main .imgContent h3{
+    font-family: monospace;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    color: inherit;
+}
+
+main .introContent{
+    display: flex;
+    flex-direction: column;
+}
+
+main .introContent h3{
+    color: inherit;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+main .mainContent{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(10, 9, 9);
+    justify-content: center;
+    margin: 0;
+}
+
+main .mainContent h1{
+    font-family: sans-serif;
+    margin-top: 30px;
+    
+}
+
+main .mainContent img{
+    width: 50%;
+}
+
+main .mainContent p{
+    font-family: sans-serif;
+    margin-top: 10%;
+    margin-right: 15px;
+}
+
+main .subContent{
+    margin-top: 40px;
+    background-color: black;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+main .subContent .card{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgb(7, 7, 15);
+    box-shadow: 0 4px 8px 0 rgba(248, 244, 244, 0.2);
+}
+
+main .subContent .card h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+main .subContent .card button{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(37, 34, 34, 0.2);
+}
+
+main .subContent .card button a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(14, 10, 20);
+    display: flex;
+    flex-direction: column;
+}
+
+footer .rightside1 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+footer .title1 {
+	font-size: 18px;
+    font-family: sans-serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bolder;
+}
+
+
+footer .content1 {
+	width: 450px;
+	margin-top: 2px;
+	color: grey;
+}
